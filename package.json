@@ -1,0 +1,8 @@
+{
+  "name": "CourseProject",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "less": "^3.0.0-alpha.3"
+  }
+}

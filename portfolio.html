@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <script defer src="js/slider.js"></script>
+    <script defer src="js/img.js"></script>
+    <script defer src="js/media.js"></script>
+</head>
+<body>
+
+<header>
+    <div>
+        <img src="icon/Logo.png" class="logo" alt="logo" height="45" width="45">
+
+        <svg height="44px" width="200px">
+            <text x="0" y="40" fill="#a5adb8"
+                  style="
+          font-family: 'Open Sans', sans-serif;
+          font-size: 30px;
+          font-weight: bold;">
+
+                STONE
+            </text>
+            <text x="97" y="40" fill="#ae4b5d"
+                  style="
+          font-family: 'Open Sans', sans-serif;
+          font-size: 30px;
+          font-weight: bold;">
+
+                ART
+            </text>
+        </svg>
+        <p>art to create in stone</p>
+        <div>
+
+            <form  id="searched">
+                <label for="search"></label>
+                <input id="search" type="search" value="Search...">
+                <button type="button">
+                    <img src="icon/find.png">
+                </button>
+
+            </form>
+        </div>
+    </div>
+
+</header>
+<aside>
+
+    <div class="container">
+
+        <ul id="slides">
+            <li class="slide showing"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+        </ul>
+
+
+        <div class="buttons">
+            <button class="controls" id="previous">&lt;</button>
+
+            <button class="controls" id="pause">&#10074;&#10074;</button>
+
+            <button class="controls" id="next">&gt;</button>
+        </div>
+    </div>
+
+
+</aside>
+<nav>
+    <div  id="nav" class="hamburger"><img id="hamburger" src="icon/hamburger.png"></div>
+    <ul id="menu" class="menu">
+
+
+
+        <li><a href="index.html">Home</a></li>
+        <li class="mmenu1"><a href="#">Products</a>
+            <ul>
+                <li><a href="page.html">Kitchen worktops</a></li>
+                <li><a href="page.html">Window-sills</a></li>
+                <li><a href="page.html">Sinks</a></li>
+                <li><a href="page.html">Washbasins</a></li>
+                <li><a href="page.html">Baths</a></li>
+                <li><a href="page.html">Shower trays</a></li>
+                <li><a href="page.html">Bar counters</a></li>
+                <li><a href="page.html">Reception racks</a></li>
+                <li><a href="page.html">Interior items</a></li>
+            </ul>
+        </li>
+        <li class="mmenu1"><a href="#">Materials</a>
+            <ul>
+                <li><a href="page.html">Acrylic stone</a></li>
+                <li><a href="page.html">Quartz stone</a></li>
+                <li><a href="page.html">Injection stone</a></li>
+                <li><a href="page.html">Remains of stone</a></li>
+            </ul>
+        </li>
+        <li><a href="page.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="page.html">Promotions</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+
+    </ul>
+</nav>
+
+<main>
+
+
+    <div class="leftCol">
+
+        <div class="contain">
+            <form action="#">
+                <h2>Contact Us</h2>
+                <label for="name"></label>
+                <input id="name" value="Your Name" size="20">
+                <label for="email"></label>
+                <input id="email" type="email" value="Email Adress" size="20">
+                <label for="sity"></label>
+                <input id="sity" value="City" size="20">
+                <label for="product"></label>
+                <select name="products" id="product">
+                    <option>Kitchen Worktops</option>
+                    <option>Window-Sills</option>
+                    <option>Sinks</option>
+                    <option>Washbasins</option>
+                    <option>Baths</option>
+                    <option>Shower Trays</option>
+                    <option>Bar Counters</option>
+                    <option>Reception Racks</option>
+                    <option>Interior Items</option>
+                </select>
+                <label for="material"></label>
+                <select name="materials" id="material">
+                    <option>Acrylic Stone</option>
+                    <option>Quartz Stone</option>
+                    <option>Injection Stone</option>
+                    <option>Remains of Stone</option>
+                </select>
+                <button type="button" >
+                    <a id="downl" href="price.pdf" download>Get a price</a>
+                </button>
+            </form>
+        </div>
+        <div class="contain">
+            <h2>Marble Floors</h2>
+            <p>It does not matter whether you choose ceramic flooring or conventional ceramic tiles, it should be
+                strong, resistant to shock and abrasion, the material should not absorb odors and liquid and react with
+                chemical reagents. In this respect, marble on the floor, the price of which is higher than artificial
+                materials, has no competitors. Marble floor will last as long as possible and will not require repair
+                and restoration work.</p>
+            <a href="#" class="more">More about</a>
+        </div>
+        <div class="contain">
+            <h2>Coronado Stone</h2>
+            <p>Coronado Stone has been the leading innovator in the manufactured stone industry for over fifty years. We
+                have replicated some of the most sought after natural stone varieties in the world and we continue to
+                add new products year after year. We are dedicated to offering an extensive product line with unique
+                textures and colors that can be used to enhance any architectural style.</p>
+            <a href="#" class="more">More about</a>
+        </div>
+    </div>
+    <div class="rightCol" id="image">
+
+        <!--start-content-->
+        <h1>Our works
+        </h1>
+        <p>With the use of natural stone, it is possible to produce such products as stairs, fireplaces,
+            countertops, shower trays, window sills, vases and other decorative elements of home decoration. Also
+            granite, marble and other natural materials are actively used in landscape design.</p>
+        <div id="gallery">
+
+
+            <img class="modal" src="image/gallery/small/1.jpg" alt="">
+            <img class="modal" src="image/gallery/small/2.jpg" alt="">
+            <img class="modal" src="image/gallery/small/3.jpg" alt="">
+            <img class="modal" src="image/gallery/small/4.jpg" alt="">
+            <img class="modal" src="image/gallery/small/5.jpg" alt="">
+            <img class="modal" src="image/gallery/small/6.jpg" alt="">
+            <img class="modal" src="image/gallery/small/7.jpg" alt="">
+            <img class="modal" src="image/gallery/small/8.jpg" alt="">
+            <img class="modal" src="image/gallery/small/9.jpg" alt="">
+            <img class="modal" src="image/gallery/small/10.jpg" alt="">
+            <img class="modal" src="image/gallery/small/11.jpg" alt="">
+            <img class="modal" src="image/gallery/small/12.jpg" alt="">
+            <img class="modal" src="image/gallery/small/13.jpg" alt="">
+            <img class="modal" src="image/gallery/small/14.jpg" alt="">
+            <img class="modal" src="image/gallery/small/15.jpg" alt="">
+            <img class="modal" src="image/gallery/small/16.jpg" alt="">
+            <img class="modal" src="image/gallery/small/17.jpg" alt="">
+            <img class="modal" src="image/gallery/small/18.jpg" alt="">
+            <img class="modal" src="image/gallery/small/19.jpg" alt="">
+            <img class="modal" src="image/gallery/small/20.jpg" alt="">
+            <img class="modal" src="image/gallery/small/21.jpg" alt="">
+            <img class="modal" src="image/gallery/small/22.jpg" alt="">
+            <img class="modal" src="image/gallery/small/23.jpg" alt="">
+            <img class="modal" src="image/gallery/small/24.jpg" alt="">
+        </div>
+
+
+        <!--end-content-->
+
+    </div>
+</main>
+<footer>
+    <div class="layout">
+        <div><span class="caption"><h1>Products</h1></span>
+            <ul>
+                <li><a href="page.html">Kitchen worktops</a></li>
+                <li><a href="page.html">Window-sills</a></li>
+                <li><a href="page.html">Sinks</a></li>
+                <li><a href="page.html">Washbasins</a></li>
+                <li><a href="page.html">Baths</a></li>
+                <li><a href="page.html">Shower trays</a></li>
+                <li><a href="page.html">Bar counters</a></li>
+                <li><a href="page.html">Reception racks</a></li>
+                <li><a href="page.html">Interior items</a></li>
+            </ul>
+        </div>
+        <div><span class="caption"><h1>Materials</h1></span>
+            <ul>
+                <li><a href="page.html">Acrylic stone</a></li>
+                <li><a href="page.html">Quartz stone</a></li>
+                <li><a href="page.html">Injection stone</a></li>
+                <li><a href="page.html">Remains of stone</a></li>
+            </ul>
+        </div>
+        <div><span class="caption"><h1>About us</h1></span>
+            <ul>
+                <li><a href="page.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="page.html">Promotions</a></li>
+            </ul>
+        </div>
+        <div>
+            <span class="caption"><h1>Contacts</h1></span>
+            <span class="adress">Steve Smith<br/>
+            Hi-Tech production company<br/>
+                <a class="email" href="mailto:info@stonecompany.com">info@stonecompany.com</a>
+            <br/>
+            5104 W. Washington Blvd<br/>
+            Los Angeles , CA , 90016 United States<br/>
+            (800) 287-0919<br/></span>
+            <ul class="socials">
+                <li class="fb"><a href="https://www.facebook.com/"></a></li>
+                <li class="tw"><a href="https://twitter.com/"></a></li>
+                <li class="in"><a href="https://www.linkedin.com/"></a></li>
+                <li class="vk"><a href="https://vk.com/"></a></li>
+                <li class="ok"><a href="https://ok.ru/"></a></li>
+                <li class="yt"><a href="https://www.youtube.com/"></a></li>
+                <li class="ig"><a href="https://www.instagram.com/"></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<div id="modal">
+
+    <button class="arrous" id="left">&lt;</button>
+
+
+    <button class="arrous" id="right">&gt;</button>
+    <button class="arrous" id="cross">&#215;</button>
+
+</div>
+
+</body>
+</html>

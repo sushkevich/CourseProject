@@ -1,0 +1,25 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr minmax(320px, 1200px) 1fr;
+  grid-template-rows: 70px 240px 36px 1fr max-content;
+}
+header {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+aside {
+  grid-column: 2 / 3;
+  grid-row: 2;
+}
+nav {
+  grid-column: 2 / 3;
+  grid-row: 3;
+}
+main {
+  grid-column: 2 / 3;
+  grid-row: 4;
+}
+footer {
+  grid-column: 1 / 4;
+  grid-row: 5;
+}

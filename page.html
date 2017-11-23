@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <script defer src="js/slider.js"></script>
+    <script defer src="js/img.js"></script>
+    <script defer src="js/media.js"></script>
+</head>
+<body>
+
+<header>
+    <div>
+        <img src="icon/Logo.png" class="logo" alt="logo" height="45" width="45">
+
+        <svg height="44px" width="200px">
+            <text x="0" y="40" fill="#a5adb8"
+                  style="
+          font-family: 'Open Sans', sans-serif;
+          font-size: 30px;
+          font-weight: bold;">
+
+                STONE
+            </text>
+            <text x="97" y="40" fill="#ae4b5d"
+                  style="
+          font-family: 'Open Sans', sans-serif;
+          font-size: 30px;
+          font-weight: bold;">
+
+                ART
+            </text>
+        </svg>
+        <p>art to create in stone</p>
+        <div>
+
+            <form  id="searched">
+                <label for="search"></label>
+                <input id="search" type="search" value="Search...">
+                <button type="button">
+                    <img src="icon/find.png">
+                </button>
+
+            </form>
+        </div>
+    </div>
+
+</header>
+<aside>
+
+    <div class="container">
+
+        <ul id="slides">
+            <li class="slide showing"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+            <li class="slide"></li>
+        </ul>
+
+
+        <div class="buttons">
+            <button class="controls" id="previous">&lt;</button>
+
+            <button class="controls" id="pause">&#10074;&#10074;</button>
+
+            <button class="controls" id="next">&gt;</button>
+        </div>
+    </div>
+
+
+</aside>
+<nav>
+    <div  id="nav" class="hamburger"><img id="hamburger" src="icon/hamburger.png"></div>
+    <ul id="menu" class="menu">
+
+
+
+        <li><a href="index.html">Home</a></li>
+        <li class="mmenu1"><a href="#">Products</a>
+            <ul>
+                <li><a href="page.html">Kitchen worktops</a></li>
+                <li><a href="page.html">Window-sills</a></li>
+                <li><a href="page.html">Sinks</a></li>
+                <li><a href="page.html">Washbasins</a></li>
+                <li><a href="page.html">Baths</a></li>
+                <li><a href="page.html">Shower trays</a></li>
+                <li><a href="page.html">Bar counters</a></li>
+                <li><a href="page.html">Reception racks</a></li>
+                <li><a href="page.html">Interior items</a></li>
+            </ul>
+        </li>
+        <li class="mmenu1"><a href="#">Materials</a>
+            <ul>
+                <li><a href="page.html">Acrylic stone</a></li>
+                <li><a href="page.html">Quartz stone</a></li>
+                <li><a href="page.html">Injection stone</a></li>
+                <li><a href="page.html">Remains of stone</a></li>
+            </ul>
+        </li>
+        <li><a href="page.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="page.html">Promotions</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+
+    </ul>
+</nav>
+
+<main>
+
+
+    <div class="leftCol">
+
+        <div class="contain">
+            <form action="#">
+                <h2>Contact Us</h2>
+                <label for="name"></label>
+                <input id="name" value="Your Name" size="20">
+                <label for="email"></label>
+                <input id="email" type="email" value="Email Adress" size="20">
+                <label for="sity"></label>
+                <input id="sity" value="City" size="20">
+                <label for="product"></label>
+                <select name="products" id="product">
+                    <option>Kitchen Worktops</option>
+                    <option>Window-Sills</option>
+                    <option>Sinks</option>
+                    <option>Washbasins</option>
+                    <option>Baths</option>
+                    <option>Shower Trays</option>
+                    <option>Bar Counters</option>
+                    <option>Reception Racks</option>
+                    <option>Interior Items</option>
+                </select>
+                <label for="material"></label>
+                <select name="materials" id="material">
+                    <option>Acrylic Stone</option>
+                    <option>Quartz Stone</option>
+                    <option>Injection Stone</option>
+                    <option>Remains of Stone</option>
+                </select>
+                <button type="button" >
+                    <a id="downl" href="price.pdf" download>Get a price</a>
+                </button>
+            </form>
+        </div>
+        <div class="contain">
+            <h2>Marble Floors</h2>
+            <p>It does not matter whether you choose ceramic flooring or conventional ceramic tiles, it should be
+                strong, resistant to shock and abrasion, the material should not absorb odors and liquid and react with
+                chemical reagents. In this respect, marble on the floor, the price of which is higher than artificial
+                materials, has no competitors. Marble floor will last as long as possible and will not require repair
+                and restoration work.</p>
+            <a href="#" class="more">More about</a>
+        </div>
+        <div class="contain">
+            <h2>Coronado Stone</h2>
+            <p>Coronado Stone has been the leading innovator in the manufactured stone industry for over fifty years. We
+                have replicated some of the most sought after natural stone varieties in the world and we continue to
+                add new products year after year. We are dedicated to offering an extensive product line with unique
+                textures and colors that can be used to enhance any architectural style.</p>
+            <a href="#" class="more">More about</a>
+        </div>
+    </div>
+    <div class="rightCol" id="image">
+
+        <!--start-content-->
+
+        <h1>Products from a stone</h1><br>
+
+        <p><img src="image/gallery/small/28.jpg" alt="" width="250" style="float: left; margin: 0 10px 10px 0">The
+            production of tabletops made of natural stone, for example, from granite, is very popular today not only
+            in Western Europe, but also in our country. The beauty and refinement of the granite stone sets the mood of
+            the whole interior, filling every room with splendor and luxury of colors of various shades. Due to the fact
+            that the kitchen worktop (granite) can be made in a variety of textures and color shades, the customer will
+            always have the opportunity to pick up the countertop in accordance with the kitchen set installed in the
+            room.
+            Tabletops made of natural stone have significant advantages, which significantly distinguishes them in
+            comparison with table tops made of other materials (particleboard, wood). To begin with, we note a high
+            index of resistance to moisture. Unintentionally spilled on the surface of the material tea, milk or coffee
+            will not cause any damage to the granite countertop. The next significant advantage is the very high
+            strength - you do not have to worry about the fact that a blow or some other mechanical damage will cause
+            some damage to the granite countertop. The period of operation of granite countertops is long enough (from
+            50 years and above). High resistance to high temperatures makes granite simply an indispensable material in
+            the manufacture of kitchen countertops. On the surface of the material without special fears, you can place
+            hot objects (a heated teapot, pans, etc.) without fear of spoiling it. And, of course, the main advantage of
+            granite countertops is their natural attractiveness, which you want to admire endlessly. It is difficult to
+            compare some other material in beauty and elegance with granite.</p>
+        <p><img src="image/gallery/small/29.jpg" alt="" width="250" style="float: right; margin: 10px 0 10px 10px">Concerning hygienic issues, it should be borne in mind that the surface of the granite countertops has
+            excellent resistance to the appearance of various microbes and bacteria. In this regard, kitchen countertops
+            made of granite are recommended for installation in kitchens, as well as in bath rooms.
+        Marble - a luxurious stone, with many natural shades and colors. The table top made of this stone will look
+            luxurious and exquisite. This material is durable and durable, has resistance to chips, is not afraid of
+            temperature changes and high humidity. However, if you compare marble with granite, then the last material
+            is more durable. Marble is sensitive to corrosive media. If the table top requires first of all
+            functionality and durability, then it is better to prefer granite. If the super strength is not in the first
+            place and you want just a beautiful table-top, then you can choose marble.
+        Without a countertop in the kitchen, nowhere. It is she who assumes considerable load when cooking food. Its
+            material should be durable, wear-resistant, so as not to lose its functional and decorative qualities under
+            these loads and over time.
+            One of the most solid table tops are tabletops made of natural stone. Stones can be of natural origin and
+            artificial - thanks to the development of technology it became possible. Many analogues in terms of quality,
+            both functional and decorative, are not inferior to natural material, but our article is about natural
+            stone. But what is more preferable: countertops made of granite or marble?</p>
+
+        <!--end-content-->
+
+    </div>
+</main>
+<footer>
+    <div class="layout">
+        <div><span class="caption"><h1>Products</h1></span>
+            <ul>
+                <li><a href="page.html">Kitchen worktops</a></li>
+                <li><a href="page.html">Window-sills</a></li>
+                <li><a href="page.html">Sinks</a></li>
+                <li><a href="page.html">Washbasins</a></li>
+                <li><a href="page.html">Baths</a></li>
+                <li><a href="page.html">Shower trays</a></li>
+                <li><a href="page.html">Bar counters</a></li>
+                <li><a href="page.html">Reception racks</a></li>
+                <li><a href="page.html">Interior items</a></li>
+            </ul>
+        </div>
+        <div><span class="caption"><h1>Materials</h1></span>
+            <ul>
+                <li><a href="page.html">Acrylic stone</a></li>
+                <li><a href="page.html">Quartz stone</a></li>
+                <li><a href="page.html">Injection stone</a></li>
+                <li><a href="page.html">Remains of stone</a></li>
+            </ul>
+        </div>
+        <div><span class="caption"><h1>About us</h1></span>
+            <ul>
+                <li><a href="page.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="page.html">Promotions</a></li>
+            </ul>
+        </div>
+        <div>
+            <span class="caption"><h1>Contacts</h1></span>
+            <span class="adress">Steve Smith<br/>
+            Hi-Tech production company<br/>
+                <a class="email" href="mailto:info@stonecompany.com">info@stonecompany.com</a>
+            <br/>
+            5104 W. Washington Blvd<br/>
+            Los Angeles , CA , 90016 United States<br/>
+            (800) 287-0919<br/></span>
+            <ul class="socials">
+                <li class="fb"><a href="https://www.facebook.com/"></a></li>
+                <li class="tw"><a href="https://twitter.com/"></a></li>
+                <li class="in"><a href="https://www.linkedin.com/"></a></li>
+                <li class="vk"><a href="https://vk.com/"></a></li>
+                <li class="ok"><a href="https://ok.ru/"></a></li>
+                <li class="yt"><a href="https://www.youtube.com/"></a></li>
+                <li class="ig"><a href="https://www.instagram.com/"></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<div id="modal">
+
+    <button class="arrous" id="left">&lt;</button>
+
+
+    <button class="arrous" id="right">&gt;</button>
+    <button class="arrous" id="cross">&#215;</button>
+
+</div>
+
+</body>
+</html>

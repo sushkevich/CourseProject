@@ -1,0 +1,55 @@
+#gallery {
+  margin-top: 20px;
+  font-size: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#gallery img {
+  height: 150px;
+  border: 2px solid white;
+  filter: grayscale(100%);
+  transition: all .2s;
+}
+#gallery img:hover {
+  filter: none;
+  border: 2px solid #95161f;
+}
+#modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -10;
+  transition: opacity 1s;
+  background: rgba(0, 0, 0, 0.9);
+  height: 0;
+  width: 0;
+}
+#modal img {
+  cursor: default;
+  border: 3px solid white;
+  max-height: 80%;
+}
+#cross {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.arrous {
+  background: none;
+  color: white;
+  font-size: 60px;
+  border: none;
+  margin: 0 20px;
+}
+.arrous:hover {
+  border: none;
+  cursor: pointer;
+}
+.arrous:focus {
+  outline: none;
+}
+.arrous:nth-child(2) {
+  order: 3;
+}
